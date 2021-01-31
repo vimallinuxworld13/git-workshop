@@ -1,5 +1,362 @@
-<body bgcolor='aqua'>
+<!DOCTYPE html>
+<html lang="en">
 
-Welcome to LW
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your-Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <!--------------------------------------------fontawesome css files -------------------------------------->
+    <link rel="stylesheet" href="./css/all.css">
+    <!---------------------------------------owl-catousal css files ------------------------------------------>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!----------------------------------------------bootstrap css files --------------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!---------------------------------------------coustom css files------------------------------------------>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
+<body>
+    <main>
+        <section>
+            <div class="raj">
+                <img src="./images/img3.png" alt="..." style="width: 100%;height:100%;">
+                <div id="clockDisplay" class="dateandtime"></div>
+            </div>
+        </section>
+
+        <!----------------------------------------------------navigation section---------------------------------->
+        <section>
+            <nav>
+                <div class="logo"><img src="./images/logo.jpg" alt=".." style="width: 100px; height: 40px;"></div>
+                <label for="btn">
+                    <span class="fa fa-bars icon"></span>
+                </label>
+                <input type="checkbox" id="btn">
+                <ul>
+
+                    <li>
+                        <label for="btn-1" class="show">Blogs</label>
+                        <a href="#">Blogs</a>
+                        <input type="checkbox" id="btn-1">
+                        <ul>
+                            <li><a href="#">Technical</a></li>
+                            <li><a href="./motivational blog/motivational.html">Motivational</a></li>
+                            <li><a href="#">Fahion</a></li>
+                            <li><a href="./photography blog/photography.html">Photography</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-2" class="show">Reviews</label>
+                        <a href="#">Reviews</a>
+                        <input type="checkbox" id="btn-2">
+                        <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Tablet</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Smart bands</a></li>
+                            <li><a href="#">Speakers</a></li>
+                            <li><a href="#">Speakers</a></li>
+                            <li><a href="#">Camera Gears</a></li>
+                            <li>
+                                <label for="btn-3" class="show">Accessories +</label>
+                                <a href="#">Accessories
+                                    <span class="fa fa-caret-down" style="transform: rotate(-90deg);"></span>
+                                </a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="#">Earphones</a></li>
+                                    <li><a href="#">EarPods</a></li>
+                                    <li><a href="#">Headphones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-4" class="show">Creators</label>
+                        <a href="#">Creators</a>
+                        <input type="checkbox" id="btn-4">
+                        <ul>
+                            <li> <a href="#">Instagram</a></li>
+                            <li> <a href="#">ArtClub</a></li>
+                            <li> <a href="#">Photography</a></li>
+                            <li> <a href="#">Poetry Club</a></li>
+                        </ul>
+                    </li>
+                    <li><label for="btn-5" class="show"><a href="aboutus.html"> About Us</a></label>
+                        <a href="aboutus.html">About Us</a>
+                        <input type="checkbox" id="btn-5"></li>
+                    <li><label for="btn-6" class="show"><a href="contact_us.html">Contact Us</a></label>
+                        <a href="contact_us.html">Contact Us</a>
+                        <input type="checkbox" id="btn-6"></li>
+                    <li>
+                        <label for="btn-7" class="show">More</label>
+                        <a href="#">More</a>
+                        <input type="checkbox" id="btn-7">
+                        <ul>
+                            <li> <a href="#">Coronavirus</a></li>
+                            <li> <a href="#">Contest</a></li>
+                            <li> <a href="#">Reviews</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <div class="ads"></div>
+        </section>
+        <!----------------------------------------------- carousal bootstrap design----------------------------------------->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner item">
+                    <div class="carousel-item active">
+                        <img src="./images/background/img8.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/background/img15.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/background/img16.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/background/img14.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-----------------------------------------------main body section--------------------------------------------->
+        <section>
+            <div class="blog">
+                <h1>Latest Updates</h1>
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-2">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-6.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-7.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-8.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-9.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Londan Fashon wwek&apos;s continued the evaluation</h3>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------------------- trending blogs ----------------------------------------->
+        <section>
+            <div class="ads"></div>
+        </section>
+        <section class="container">
+            <h2>Trending Blogs</h2>
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="./images/motivational/img1.jpg" class="img" alt="blog-1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Kartik Katiyar</span>
+                                <span><i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp;June 23,2020</i></span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Is depression really that big as we see it? Read some crucial facts about depression.
+                            </a>
+                            <p>In times of pain, when the future is too terrifying to contemplate and the past too painful to remember, I have learned to pay attention to right now. The precise moment I was in was always the only safe place for me.” By -Julia
+                                Cameron.
+                                <br> As society is developing for being a bigger and a technological world, we as humans tend to forget the native meaning of life, busy in our rushy world we have forgotten......
+                            </p>
+                            <a href="motivational blog/motivational_kartik.html"><button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="./images/photography/img1.jpg" class="img" alt="blog-1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Anamika Sharma</span>
+                                <span><i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp;June 24,2020</i></span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Want to become a successful photographer? Ckeck-out some real guidelines for becoming successful photographer.
+                            </a>
+                            <p>The advent of photography has led to an explosion in digital photography as a creative art form and some also opt for that as a career. Nowadays learning new things is quite an easy task, in this digital era, the knowledge
+                                is on our fingertips and literally anyone can learn anything online if they are willing to learn that.Considering the fact that you are trying your hands-on photography and want to learn more, then there are plenty...
+                            </p>
+                            <a href="#"><button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>&nbsp;&nbsp;Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items">
+                                <a href="#">Photography</a>
+                            </li>
+                            <li class="list-items">
+                                <a href="#">Fashion</a>
+                            </li>
+                            <li class="list-items">
+                                <a href="#">Motivational</a>
+                            </li>
+                            <li class="list-items">
+                                <a href="#">Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ads-cornerside"></div>
+                    <div class="popular-post">
+                        <h2></h2>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <!---------------------------------------------footer area ----------------------------------------------->
+    <footer>
+        <div class="inner-footer">
+            <div class="footer-items">
+                <a href="index.html"><img src="./images/logo.jpg" alt="..." style="width: 70%;height: 20%;"></a>
+                <p>The outliners is an enterprising multimedia effort to examine how the technology will change lives in the future for such a huge audience.<br>Our original footnote inspiration was that technology had departed from the far verges of the
+                    community to the absolute centre as mobile technology created a whole new generation of digital consumers and buyers. Now, we live in an astonishing world of screens that have led to revolutions in media, communication, transportation,
+                    and science. The future is appearing earlier than ever.</p>
+            </div>
+            <div class="footer-items">
+                <h2>Important Links</h2>
+                <div class="border"></div>
+                <ul class="links">
+                    <a href="index.html">
+                        <li>The Outliners</li>
+                    </a>
+                    <a href="#">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#">
+                        <li>FAQs</li>
+                    </a>
+                    <a href="#">
+                        <li>Viewers and Readers</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy & Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms & Conditions</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>Contact Us</h2>
+                <div class="border"></div>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>NH-2,&nbsp;Gla University,&nbsp;Mathura</li>
+                    <li><a href="mailto:support@theoutliners.in"><i class="fa fa-envelope" aria-hidden="true"></i>xyz@example.com</a></li>
+                    <li><a href="mailto:theoutlinersinfo@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</a></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
+                </ul>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href=#><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&nbsp;&nbsp;Copyright &#169 company_name 2020,&nbsp;All Right Reserved<br><br>Your Caption here</p>
+            </div>
+        </div>
+    </footer>
+
+    <!----------------------------------------bootstrap files------------------------------------------------>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-------------------------------------------------owl-carousal javascript files------------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!---------------------------------------------- jscoustom file ----------------------------------------->
+
+    <script>
+        var date = new Date();
+        document.getElementById("clockDisplay").innerHTML = date.toDateString();
+    </script>
+    <script src="./js/main.js"></script>
 </body>
+
+</html>
