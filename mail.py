@@ -1,4 +1,4 @@
-mail app by Tejesh
+# mail app by Tejesh
 
 import smtplib 
 from email.message import EmailMessage
