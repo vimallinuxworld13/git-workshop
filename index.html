@@ -1,5 +1,50 @@
-<body bgcolor='aqua'>
-
-Welcome to LW
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transformation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            height:80vh;
+            align-items: center;
+            justify-content: center;
+            background-color: burlywood;
+        }
+        .box{
+            display: flex;
+            background-color: brown;
+            border: 2px solid black;
+            height:400px;
+            width:400px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+            
+            
+        }
+        .box:hover{
+            transform:rotate(360deg);
+            /* transform:skew(40deg); */
+            /* transform: scale(3); */
+            /* transform:translateX(123px); */
+            /* transform:translateY(123px); */
+            /* transform: translate(123px,100px); */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
 </body>
+</html>
