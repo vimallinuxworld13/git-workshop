@@ -1,1 +1,1 @@
-print("Thank you Very meuch Vimal Sir")
+print("Thank you Very much Vimal Sir")
