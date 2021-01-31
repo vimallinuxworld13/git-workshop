@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    /* background-color: #336699; */
+    background-image: url('https://wallpapercave.com/wp/wp2601079.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#head
+{
+    align-items: center;
+    color: #111010;
+}
+
+#head h1
+{
+    padding-top: 2%;
+    text-align: center;
+}
+
+#head hr
+{
+    border: 2px solid #999999;
+}
+
+#main
+{
+    color: black;
+}
+
+#LvR, #If-Remote, #Want
+{
+    padding: 2% 0;
+}
+#LvR p, #If-Remote p, #Want p
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+#LvR-inputs, #If-inputs, #rest-content
+{
+    column-count: 2;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+}
+.LvR-content, .If-content, .Want-content
+{
+    padding: 0 5%;
+}
+#If-Remote
+{
+    border: 5px solid red;
+    color: rgb(160, 89, 63);
+    max-width: 70%;
+    padding: 5%;
+}
+#Want
+{
+    margin-top: 5%;
+}
+#final-submit
+{
+    margin: 8%;
+}
