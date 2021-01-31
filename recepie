@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	 <meta charset=" utf-8">
+	 <title>My Chilli Chiken </title>
+     .body{
+	 paddind-left:10000px;
+	 padding-right:100px;
+	  padding-top:100px;
+	   padding-bottom:100px;
+	 }
+
+
+     </head> 
+	        <body  class="body" style=background-color:lightyellow >
+			<u><h1 style=font-size:50px;padding-left:300px >My Favourite Food and their<mark>Recipe</mark>🥣 </h1></u>
+			
+			<h3 style=font-size:45px;padding-top:60px>🍗Chilli Chicken Recipe😋</h3>
+			<p style=font-size:35px;padding-top:60px;>Chilli chicken🐔 is a popular Indo-Chinese dish of chicken of Hakka Chinese heritage. In India, this may include a variety of dry chicken preparations. Though mainly boneless chicken is used in this dish, some people also use boned chicken too.
+			Taste😋 of this food is good every one have to taste this food in their life .Just😋 because of its delicious taste ,this is my favourite food!!</p>
+			<strong><p style=font-size:30px;padding-left:60px;padding-top:60px>The Ingredient List</p></strong>
+			<!--UNORDER LIST-->
+			<ul style=font-size:25px;padding-left:100px>
+			    <li>Chicken</li>
+                <li>Ginger-Garlic Paste</li>
+				<li>Red Chilli Flake</li>
+				<li>Corn Flour</li>
+				<li>Oil</li>
+				<li>Spring Onions</li> 
+				<li>Water</li>
+				<li>Soya Sauce</li>
+				<li>Pepper Powder</li>
+				<li>Vinegar</li>
+				<li>Salt</li>
+				<li>Green Chillies</li>
+				<li>Green Capsicum</li>
+				<li>MAGGI Magic Cubes</li>
+			</ul>	
+			<strong><p style=font-size:30px;padding-left:60px>The Easy Steps</p></strong>
+			<!--ORDER LIST-->
+			<ol style=font-size:25px;padding-left:100px>
+			    <li>Marinate the chicken pieces🍗 in 1 tablespoon of soya sauce, ginger-garlic paste, pepper powder, red chilli flakes, 1 tablespoon of vinegar and salt to taste. Keep it aside for 2-3 hours.🐔</li>
+				<li>Heat oil in a wok and add the marinated chicken pieces. Stir-fry for a minute, cover it and cook on low-flame till done🔥</li>
+				<li>Increase the flame, dry the gravy, if any and sauté the chicken🍗, till brown. Add the sliced spring onions 🧅(keep some aside for garnish) and stir-fry for 2-3 minutes. Now, add capsicum and fry for another minute.⏱️</li>
+				<li>In a bowl, mix together 2 tablespoons of soya sauce, salt, 1 tablespoon of vinegar, corn flour and water. Add this sauce mixture to the chicken and mix till all the pieces are well coated with it. For an extra flavor, add 2 crumbled MAGGI Magic Cubes (Chicken)🍗.</li>
+				<li>Lower the flame and continue to cook for 2-3 minutes, stirring continuously⏱️</li>
+				<li>Garnish with chopped green spring onion🧅 and serve hot.🔥</li>
+			</ol>
+			<img style=font-size:25px;padding-left:100px src="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="1000px" alt="chilli chicken">
+			<h3 >Top 5 URL For Making Chilli Chicken </h3>
+			<ul>
+			
+			<li><a href="https://www.indianhealthyrecipes.com/chilli-chicken-dry-recipe-indo-chinese-style/" >recipe 1</a></li>
+			<li><a href="https://droolingfoodies.com/recipe/chilli-chicken-recipe-how-to-make-chilli-chicken/">recipe 2</a></li>
+			<li><a href="http://www.yummyntasty.com/recipes/chilli-chicken-dry-restaurant-style/">recipe 3</a></li>
+			<li><a href="https://www.faskitchen.com/dry-chilli-chicken-recipe/">recipe 4</a></li>
+			<li><a href="https://vaya.in/recipes/details/chilli-chicken-recipe/">recipe 5</a></li>
+			</ul>
+			<!--https://www.tutorialrepublic.com/css-reference/css3-properties.php (link of css properties)-->
+			</body>
+</html>			
