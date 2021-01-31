@@ -1,5 +1,93 @@
-<body bgcolor='aqua'>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> ARTH TASKS</title>
+<style>
+  body{
+    background-color:powderblue;
+  }
+  
+  .topic
+  {
+    background-color: lightgrey;
+width: 300px ;
+border: 15px solid green;
+text-align: center;
+padding: 10px;
+margin: auto;
+ }
+ p.magicselection::selection
+   {
+     color: red;
+     background : black;
+   }
+   p.magicselection::first-letter{
+     color:blue;
+     font-size: xx-large;
+   }
+   p.magicselection::first-line{
+     color: black;
+     font-variant: small-caps;
+   }
+   .borders{
+     border:5px solid red;
+     overflow:auto;
+   }
 
-Welcome to LW
+   ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+ }
 
-</body>
+ li {
+   float: left;
+ }
+
+ li a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ li a:hover {
+   background-color: #111;
+ }
+
+ .active {
+   background-color: red;
+ }
+
+ </style>
+ </head>
+ <body>
+   <ul>
+
+     <li><a href="https://akshayanil1080.github.io/mywebsite/" target="_blank" class="active">MyWebsite</a></li>
+     <li><a href=" https://www.linkedin.com/in/akshay-anil-26672a172/" target="_blank" >Linkedin</a></li>
+     <li><a href="https://github.com/ARTH-TASKS/task10" target="_blank">Github Task10 </a></li>
+
+   </ul>
+
+   <p class="topic"> TASK 10. </p>
+<p class="magicselection"> 🔰Write an Ansible PlayBook that does the following operations in the managed nodes: </p>
+
+<div class="borders" >
+
+<pre>🔹 Configure Docker
+🔹 Start and enable Docker services
+🔹 Pull the httpd server image from the Docker Hub
+🔹 Run the docker container and expose it to the public
+🔹 Copy the html code in /var/www/html directory and start the web server
+</pre>
+</div>
+   </body>
+
+   </html>
