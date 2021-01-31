@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+</head>
+<body bgcolor="#ffcc99">
+    <h1 align="middle" style="color:red">USER REGISTRATION FORM</h1>
+     <hr color="black">
+     <form action="que1results.html" method="GET">
+        <div>
+<br>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email-ID: </label>
+            <input type="email" name="Email-ID" id="email" required placeholder="Enter your Email-ID">
+        </div><br>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter password" required>
+        </div>
+        <div><br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" min="1" max="200" step="1" required>
+        </div><br>
+        <div>
+            <label for="dob">Date of birth: </label>
+            <input type="date" name="date of birth"  id="dob">
+        </div><br>
+        <div>
+            <fieldset>
+                <legend align="top">Gender</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+        <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        
+        <br>
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+        
+             </fieldset>
+            </div><br>
+             <div>
+            
+            <label for="mobile">Mobile no.</label>
+            <select name="country code"  value="+91">
+                <option value="+91(India)" label="+91">hehh</option>
+                <option value="+44(UK)" label="+44"></option>
+                <option value="+52(Mexico)" label="+52"></option>
+                <option value="+1(USA)" label="+1"></option>
+            </select>
+            <input type="tel" name="mobile no." id="mobile" required> 
+        </div><br>
+        <div><br>
+            <fieldset>
+                <legend align="top">Courses</legend>
+                <table cellpadding="10" cellspacing="10">
+                    <tr>
+                        <td>
+                
+                <label for="web">Web Technology</label>
+                <input type="checkbox" name="courses" id="web">
+                        </td>
+                        <td>
+                <label for="os">Operating System</label>
+                <input type="checkbox" name="courses" id="os">
+                        </td>
+                        <td>
+                <label for="dbms">Database Management System</label>
+                <input type="checkbox" name="courses" id="dbms">
+                            </td>
+                    </tr>
+                </table>
+                
+            </fieldset>
+        </div><br>
+        <hr color="black">
+        <br>
+        <div>
+            <button type="submit" autofocus>Submit Form</button>
+        </div>
+
+
+    
+
+    </form>
+</body>
+
+
+
+
+</html>
