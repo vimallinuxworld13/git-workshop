@@ -1,0 +1,43 @@
+#Day_2
+#Git_GitHub_Workshop
+31 Jan 2021
+
+👉 What is webhooks and trigger?
+Webhooks, as the name suggests are  kind of hooks that is used for the integration of appications and it helps in creating CI/CD system, trigger is something that invokes a sequence of code when any changes are made.
+ 
+👉 Demonstration of CI/CD.
+Whenever a change is introduced in the Git, the github repository triggers and Jenkins starts a build and code is tested which is then automatically pushed to production.
+
+👉 What is gitkraken(GUI of git) and how to use it?
+The GUI repesentation of the GIT and we can manage everything on git through this tool, whatever changes that are made across branches can also be visually monitored through this tool.
+
+👉 What is squash method?
+As the name suggest, there are multiple commits that can be completely squashed and changes can be  merged to previous versions.
+
+👉 What is difference between rebase and merge?
+Merge is to merge a branch to the master branch and rebase is when we want to change the base, wherein feature branch wants to get  rebase from master branch. Merge happens when the job is completed, but the rebase is when work is ongoing in feature branch and we need a previous version.
+
+👉 Difference between fast-forward and recursive?
+fast forward is the default strategy and in this the merge is linear annd the simplest one. recursive is when the branches are in non-linear mode that needs to be merged.
+
+👉 What is cheery-pick?
+Cheery pick is a way wherein the master branch can pick any of the verion from the feature branch.
+
+👉 What is stash?
+When developers does not want to commit the code and hence it is temperory space where it will be stashed, this space is the stash.
+
+👉 How to do Revert?
+revert is to get back to the particular previous version
+git revert <commit id>
+
+👉 How to use p4vinst64?
+This is a thrd party diff tool that can help us find the various changes done and help in resolving the conflicts.
+
+👉 What are the types of Reset ?
+Types of reset are:-
+1. Soft
+2  Hard
+3  Mixed
+
+👉 What is DVCS ?
+DVCS is the Distributed version control system , wherein various people can work on the centralozed code that can be cloned in local repository.
