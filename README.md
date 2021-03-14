@@ -1,6 +1,5 @@
 # git-workshop
 
-This is the project1. <br/>
-Please refer it.
+## Additional Research
 
-End of file.
+[Multiple github accounts on the same computer?](https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
