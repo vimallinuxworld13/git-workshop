@@ -9,6 +9,7 @@
 git fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn't do any file transferring. It's more like just checking to see if there are any changes available). git pull on the other hand does that AND brings (copy) those changes from the remote repository.
 
 ### …or create a new repository on the command line
+```
 echo "# myreactapp" >> README.md
 git init
 git add README.md
@@ -16,11 +17,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/janardanchavan/myreactapp.git
 git push -u origin main
+```
 
 ### …or push an existing repository from the command line
+```
 git remote add origin https://github.com/janardanchavan/myreactapp.git
 git branch -M main
 git push -u origin main
+```
 
 ### …or import code from another repository
+```
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+```
