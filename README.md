@@ -30,3 +30,19 @@ git push -u origin main
 ```
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 ```
+
+### To remove remote use this:
+```
+git remote remove origin
+```
+OR
+```
+git remote rem origin
+```
+
+### Instead of removing and re-adding, you can do this:
+```
+git remote set-url origin git://new.url.here
+```
+
+
