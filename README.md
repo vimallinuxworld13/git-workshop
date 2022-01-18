@@ -37,7 +37,7 @@ git remote remove origin
 ```
 OR
 ```
-git remote rem origin
+git remote rm origin
 ```
 
 ### Instead of removing and re-adding, you can do this:
